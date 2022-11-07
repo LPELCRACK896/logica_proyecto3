@@ -8,6 +8,7 @@ Proyecto que utiliza prolog para resolver una serie de ejercicios de derivadas q
 ### Sintaxis
 - Utilizar lower case para nombrar los archivos y argumentos. 
 - Para termina una linea utilizar el caracter punto '.'
+- Utiliza mayusculas en la primera letra para las variables. 
 ### Instrucciones utiles en consola
 - pwd. --> Indica el directorio sobre el que compilaría. 
 - working_directory(CWD, 'C:/...'). --> Cambia el directorio al indicado en el string. 
