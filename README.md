@@ -9,7 +9,9 @@ Proyecto que utiliza prolog para resolver una serie de ejercicios de derivadas q
 - Utilizar lower case para nombrar los archivos y argumentos. 
 - Para termina una linea utilizar el caracter punto '.'
 - Utiliza mayusculas en la primera letra para las variables. 
-### Instrucciones utiles en consola
+### Terminal comun
+- - swipl --> De tener prolog en el path, abre la consola de prolog en la consola en la que se ejecute el comando. 
+### Instrucciones utiles en consola prolog
 - pwd. --> Indica el directorio sobre el que compilaría. 
 - working_directory(CWD, 'C:/...'). --> Cambia el directorio al indicado en el string. 
 - [nombre archivo].  --> Compila el archivo indicado.  

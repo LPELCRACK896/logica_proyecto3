@@ -22,3 +22,5 @@ derivada(U^N, X, N*(U^NN)*(DU)) :- derivada(U, X, DU), N>0, NN is N-1.
 derivada(exp(U), X, exp(U)*DU) :- not(number(U)), derivada(U, X, DU).
 %derivada de una constante numérica -> http://www.nivaria.net/blog/index.php/prolog/383-derivada-de-una-funcion-entera
 derivada(X,_,0):- number(X).
+%derivada tangente
+derivada(tan(U), X, sec2(U)*DU) :-  not(number(U)), derivada(U, X, DU).
